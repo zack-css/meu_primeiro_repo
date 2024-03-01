@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.card {
+    width: 500px;
+    height: fit-content;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.card-image {
+    width: 100px;
+    border-radius: 50%;
+}
+.card-image img{
+    width: 70%;
+    height: 70%;
+}
+.card-titulo{
+    font-size: 35px;
+}
+.card-titulo .card-titulo-nome{
+    color: rgb(0, 47, 255);
+}
+.card-mensagem span{
+    font-weight: bold;
+    color: #dd0f0f;
+    font-style: italic;
+}
